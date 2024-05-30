@@ -1,0 +1,104 @@
+.body{
+    color: yellow;
+    justify-content: center;
+}
+
+.header{
+    align-items: center;
+}
+.h2{
+    
+    font-family: sans-serif;
+    font-size: 30px;
+    width: 80%;
+}
+.cent{
+    display: flex;
+    align-items: center;       
+    justify-content: center;
+}
+button{
+    font-family: fantasy;
+    display: flex;
+    padding: 12px 90px;
+    font-size: 15px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    align-items:center ;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    left: 650px;
+    top: -84px;
+    
+}
+button:hover{
+    background-color: greenyellow;
+}
+.contenedor{
+    max-width: 600;
+    margin: auto;
+    padding: 20px;
+}
+
+
+
+.ap {
+    display: flex;
+    justify-content: space-around; 
+    align-items: center; 
+}
+
+.idioma {
+    display: flex;
+    align-items: center; }
+
+.idioma img {
+    margin-right: 5px; 
+}
+
+.fontblack{
+    background-color: black;
+    color: white;
+    padding: 20px; 
+}
+.imgcont img{
+    flex: 1; /* Ocupa todo el espacio disponible */
+    text-align: right;
+}
+
+.texto-imagen {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    background-color: #f2f2f2; /* Color de fondo opcional */
+    padding: 20px; /* Ajusta el espaciado interno según sea necesario */
+}
+
+.ult {
+    display: flex;
+    max-width: 800px; /* Ancho máximo del contenedor */
+    margin: auto; /* Centra horizontalmente */
+}
+
+.cont {
+    flex: 1; /* Ocupa todo el espacio disponible */
+    text-align: left; /* Alinea la imagen a la izquierda */
+}
+
+.tex {
+    flex: 1; /* Ocupa todo el espacio disponible */
+    padding-left: 20px; /* Espacio entre la imagen y el texto */
+}
+
+.tex h4 {
+    font-size: 1.5rem; /* Tamaño del título */
+    margin-bottom: 10px; /* Espacio bajo el título */
+}
+
+.tex p {
+    font-size: 1rem; /* Tamaño del texto */
+    line-height: 1.5; /* Espaciado entre líneas */
+}
